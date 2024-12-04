@@ -1,0 +1,24 @@
+#nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(https://www.astound.com/wp-content/uploads/2022/11/netflix-hero-200x600-darker-1.webp);
+  background-size: cover;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+.reset-rating-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  top: 10px;
+  right: 10px;
+}
